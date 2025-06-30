@@ -1,0 +1,212 @@
+*{margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+font-family: "Montserrat", sans-serif;}
+
+
+body {
+display: grid;
+grid-template-columns: 90px 1fr;
+height: 100vh;
+}
+
+
+#header {
+display: grid;
+grid-template-rows: 90px 1fr;
+}
+
+
+#CabinDfotosria {
+display: flex;
+}
+
+
+#menu {
+background-color: #0f0f0f;
+}
+
+
+#social {
+position: absolute;
+top: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+svg{ margin-bottom: 50px; width: 18px; height: 18px;}
+}
+
+
+nav {
+position: absolute;
+display: grid;
+left: 0;
+top: 0;
+height: 100%;
+background-color: #fff;
+width: 270px;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 90px 4fr 50px 1fr;
+margin-left: -270px;
+z-index: 999;
+box-shadow: 14 px 0px 103px rgba(0, 0, 0, 0.8);
+transition: 0.3s;
+}
+
+
+input {
+position: absolute;
+transform: scale(7);
+margin-top: 37px;
+margin-left: 35px;
+cursor: pointer;
+z-index: 1000;
+    opacity: 0;
+}
+
+
+input:checked~nav {
+margin-left: 0;
+}
+
+
+input:checked~#bnt_menu {
+ margin-left: -50px;
+}
+
+
+#seta {
+background-color: #0f0f0f;
+grid-row: 1/2;
+grid-column: 1/2;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+
+
+#logo {
+background-color: #2916e0;
+grid-row: 1/2;
+grid-column: 2/3;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+ul {
+grid-row: 2/3;
+grid-column: 1/3;
+display: flex;
+justify-content: end;
+align-items: center;
+flex-direction: column;
+list-style: none;
+gap: 30px;
+margin-bottom: 100px;
+}
+
+
+ul>li>a {
+font-size: 30px;
+font-weight: 600;
+color: #b2b2b2;
+transition: 0.3s;
+}
+
+.btn_home {
+color: #2916e0;
+}
+
+ul>li>a:hover{
+color: #2916e0;
+}
+
+#Inicio00 {
+display: grid;
+grid-template-columns: 10fr 1fr 1fr 1fr 1fr 1fr 1fr;
+height: 5vh;
+width: 100%;
+}
+
+#gallery {
+font-size: 24px;
+margin-bottom: 30px;
+margin-top: 30px;
+text-align: center;
+}
+
+#item {
+font-size: 18px;
+margin-bottom: 35px;
+margin-top: 35px;
+text-align: center;
+}
+
+#CabinDfotosriadeFotos {
+position: relative;
+left: 100%;
+display: grid;
+grid-template-columns: 2fr 1fr 1fr 1fr;
+grid-template-rows: 2fr 1fr 1fr;
+height: 1000px;
+width: 190vh;
+}
+
+#mulher {
+background-image: url(imagem/1.jpg);
+}
+
+
+#carro {
+background-image: url(imagem/2.jpg);
+}
+
+
+#fone {
+background-image: url(imagem/3.jpg);
+}
+
+
+#pimentao {
+background-image: url(imagem/4.jpg);
+}
+
+
+#mar {
+background-image: url(imagem/6.jpg);
+}
+
+
+#calango {
+background-image: url(imagem/5.jpg);
+}
+
+#macarron {
+background-image: url(imagem/7.jpg);
+}
+
+
+#laranja {
+background-image: url(imagem/8.jpg);
+}
+
+
+#cesta {
+background-image: url(imagem/9.jpg);
+}
+
+
+#mar2 {
+background-image: url(imagem/10.jpg);
+}
+
+
+#mao {
+background-image: url(imagem/11.jpg);
+}
